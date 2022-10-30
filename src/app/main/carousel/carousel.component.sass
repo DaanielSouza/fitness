@@ -1,0 +1,27 @@
+#carouselExampleIndicators
+  & .carousel-item
+    max-height: 500px
+  & #carouselExampleIndicators__images #carouselExampleIndicators__images__parallax
+    height: 500px
+    background-color: black
+    opacity: 0.3
+  #carouselExampleIndicators__images__first div
+    text-align: left
+  #carouselExampleIndicators__images__third div
+    text-align: right
+
+@media only screen and (max-width:480px)
+  #carouselExampleIndicators
+    height: 300px
+    & #carouselExampleIndicators__images
+      height: 100%
+    & .carousel-item
+      height: 100%
+      & img
+        height: 100%
+    & #carouselExampleIndicators__images #carouselExampleIndicators__images__parallax
+      opacity: 0.3
+    #carouselExampleIndicators__images__first div
+      text-align: center
+    #carouselExampleIndicators__images__third div
+      text-align: center
